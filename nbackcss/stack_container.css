@@ -1,0 +1,291 @@
+body {
+  background-color: white;
+}
+
+div.format {
+	font-family: "Tahoma", Serif;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+#stackContainer {
+	position: relative;
+}
+
+#intro {
+	position: absolute;
+	top: 0px;
+}
+
+#questions {
+	position: absolute;
+	top: 0px;
+}
+
+#welcome_pane1 {
+	position: absolute;
+	top: 0px;
+}
+
+#welcome_pane2 {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions1a {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions1b {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions2a {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions2b {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions3a {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions3b {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions4a {
+	position: absolute;
+	top: 0px;
+}
+
+#instructions4b {
+	position: absolute;
+	top: 0px;
+}
+
+#practice_test1 {
+	position: absolute;
+	top: 0px;
+}
+
+#practice_test2 {
+	position: absolute;
+	top: 0px;
+}
+
+#practice_test3 {
+	position: absolute;
+	top: 0px;
+}
+
+#practice_test4 {
+	position: absolute;
+	top: 0px;
+}
+
+#test1 {
+	position: absolute;
+	top: 0px;
+}
+
+#test2 {
+	position: absolute;
+	top: 0px;
+}
+
+#test3 {
+	position: absolute;
+	top: 0px;
+}
+
+#test4 {
+	position: absolute;
+	top: 0px;
+}
+
+#scores {
+	position: absolute;
+	top: 0px;
+}
+
+#all_scores_pane {
+	position: absolute;
+	top: 0px;
+}
+
+#match_div1 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#box1 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 2px;
+	border-style: solid;
+	border-color: grey;
+	text-align: center;
+}
+
+#match_div2 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#box2 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 2px;
+	border-style: solid;
+	border-color: grey;
+	text-align: center;
+}
+
+#match_div3 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#box3 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 2px;
+	border-style: solid;
+	border-color: grey;
+	text-align: center;
+}
+
+#match_div4 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#box4 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 2px;
+	border-style: solid;
+	border-color: grey;
+	text-align: center;
+}
+
+
+
+
+#practice_match_div1 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#practice_box1 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 5px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}
+
+#practice_match_div2 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#practice_box2 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 5px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}
+
+#practice_match_div3 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#practice_box3 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 5px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}
+
+#practice_match_div4 {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px;
+}
+
+#practice_box4 {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px;
+	border: 5px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}
+
+
+

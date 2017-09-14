@@ -1,0 +1,26 @@
+#container {
+	position: relative;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Georgia", serif;
+}
+
+#button1 {
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Georgia", serif;
+}
+
+#start {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Georgia", serif;
+}	
+	
+	
+	
+	

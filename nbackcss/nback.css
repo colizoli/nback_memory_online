@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+}
+
+div.style {
+	font-family: "Georgia", serif;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+#border {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 600px; 
+	border: 1px;
+	border-style: solid;
+	border-color: #FF0000;
+	text-align: center;
+}
+
+#title {
+	position: absolute;
+	top: 30px;
+	left: 320px;
+}
+
+#nback {
+	position: absolute;
+	top: 60px;
+	left: 365px;
+}
+
+#match_div {
+	position: absolute;
+	top: 350px;
+	left: 312px;
+	width: 175px;
+	height: 40px; 
+}
+
+#instruc_div {
+	position: absolute;
+	top: 525px;
+	left: 25px;
+	font-size: 18px;
+}
+
+#box {
+	position: absolute;
+	top: 150px;
+	left: 312px;
+	width: 175px;
+	height: 175px; 
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}
+
+
+
+
+
