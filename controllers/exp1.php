@@ -44,6 +44,99 @@ function ned()
 
 ////////////////////////////////////// LOADING VIEWS /////////////////////////////////////
 
+/*	
+function scores()
+{
+	$this->load->model('livetest/exp1/Exp1_model','',TRUE);
+	$this->load->view('livetest/exp1/nback_score');
+}
+
+
+function take_one()
+{
+	$this->load->model('livetest/exp1/Exp1_model','',TRUE);
+	$this->load->view('livetest/exp1/do_this_nback');
+}
+*/
+	
+/*
+function check_email(){ // Working
+
+    $this->EE =& get_instance();
+    $this->load->library('form_validation');            
+
+    // Check to see if email is already in the database.
+    // If 'old' then check what has already been done
+    // If 'new' then choose tests out of all tests
+
+            
+    $email = $this->input->post('email',TRUE);
+
+    $rules['email'] = "trim|required|xss_clean";
+
+     $this->form_validation->set_rules($rules);
+
+
+        if ($this->form_validation->run() == FALSE)
+		{
+                    echo $this->form_validation->error_string;                    
+		}
+		else
+		{
+                     $this->load->model('livetest/exp1/Exp1_model','',TRUE);
+
+                      // Checks to see if email is already in the database
+                     $checked = $this->Exp1_model->email($email);
+
+                        if ($checked == false) // New subject
+                            {
+                                // Enter information
+                                $data = array(
+								'email' => $email
+                                 );
+
+                                $this->load->model('livetest/exp1/Exp1_model','',TRUE);
+
+                                // Saves insert_id
+                                $id = $this->Exp1_model->new_subject($data);
+                                $new_subject = 1;
+                                
+                            $this->EE->session->set_flashdata('subject_id', $id);
+                            $this->EE->session->set_flashdata('new_subject', $new_subject);
+                                
+//                                $this->EE->session->set_userdata('subject_id',$id);
+//                                $this->EE->session->set_userdata('new_subject',$new_subject);
+								
+								$this->block_tracker();
+
+                                // dojo.xhr responds to 'new'
+                                //echo "new";
+                            }
+                        if ($checked == true) // Old subject
+                            {
+
+                            $this->load->model('livetest/exp1/Exp1_model','',TRUE);
+
+                            $id = $this->Exp1_model->get_id($email);
+                            $new_subject = 0;
+
+
+                            $this->EE->session->set_flashdata('subject_id', $id);
+                            $this->EE->session->set_flashdata('new_subject', $new_subject);
+
+
+                            //$this->CI->session->set_userdata('subject_id',$id);
+                            //$this->CI->session->set_userdata('new_subject',$new_subject);
+							
+							$this->block_tracker();
+							
+                            // dojo.xhr responds to 'old'
+                            //echo "old";
+                            };
+                   };
+ }
+*/
+
 
 function check_question_info()
 {
